@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Realestate - Choose your dream home</title>
+  <!--======== custom css link =========-->
+  <link rel="stylesheet" href="style.css">
+  <!--========= google font link ========-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header" data-header>
+        <div class="container">
+            <a href="" class="logo">
+                <ion-icon name="home-outline"></ion-icon> MagicBricks
+            </a>
+    
+            <nav class="navbar container" data-navbar>
+                <ul class="navbar-list">
+                    <li>
+                        <a href="index.html" class="navbar-link" data-nav-link>Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html" class="navbar-link" data-nav-link>About Us</a>
+                    </li>
+                    <li>
+                        <a href="catalogue.html" class="navbar-link" data-nav-link>Catalogue</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="navbar-link" data-nav-link>Contact</a>
+                    </li>
+                </ul>
+            </nav>
+    
+            <a href="login.html" class="btn btn-secondary">Signup</a>
+        </div>
+    </header>
+
+   <!--======== main =========-->
+   <main>
+        <article class="article">
+            <section class="section hero" aria-label="hero">
+                <div class="container">
+                    <div class="hero-bg">
+                        <div class="hero-content">
+                            <h1 class="h1 hero-title">
+                                We will help you find your <span class="span">Dream</span> home
+                            </h1>
+
+                            <p class="hero-text">
+                                Buy your dream home today
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="hero-form-wrapper">
+                        <div class="form-tab">
+                            <label for="option">Select Option:</label><br>
+                            <select id="option" name="option">
+                            <option value="buy">Buy</option>
+                            <option value="sell">Sell</option>
+                            <option value="rent">Rent</option>
+        </select><br><br>
+                        </div>
+
+                        <form action="" class="hero-form">
+                            <div class="input-wrapper">
+                                <label for="search" class="input-label">Search: *</label>
+                                <input type="search" name="search" id="search" placeholder="Location" required class="input-field">
+                                <ion-icon name="search-outline"></ion-icon>
+                            </div>
+
+                            <div class="input-wrapper">
+                                <label for="category" class="input-label">Select Categories</label>
+                                <select name="category" id="category" class="dropdown-list">
+                                    <option value="house">House</option>
+                                    <option value="apartment">Apartment</option>
+                                    <option value="offices">Offices</option>
+                                    <option value="townhome">Townhome</option>
+                                </select>
+                            </div>
+
+                            <div class="input-wrapper">
+                                <label for="min-price" class="input-label">Min Price :</label>
+                                <select name="min-price" id="min-price" class="dropdown-list">
+                                    <option value="min price">Min Price</option>
+                                    <option value="5k">5k</option>
+                                    <option value="10k">10k</option>
+                                    <option value="20k">20k</option>
+                                    <option value="30k">30k</option>
+                                    <option value="40k">40k</option>
+                                    <option value="50k">50k</option>
+                                    <option value="60k">60k</option>
+                                </select>
+                            </div>
+
+                            <div class="input-wrapper">
+                                <label for="max-price" class="input-label">Max Price :</label>
+                                <select name="max-price" id="max-price" class="dropdown-list">
+                                    <option value="max price">Max Price</option>
+                                    <option value="5k">5k</option>
+                                    <option value="10k">10k</option>
+                                    <option value="20k">20k</option>
+                                    <option value="30k">30k</option>
+                                    <option value="40k">40k</option>
+                                    <option value="50k">50k</option>
+                                    <option value="60k">60k</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Search now</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <!--=========== PROPERTIES ===========-->
+            <!--=========== TESTIMONY ==========-->
+            <section class="section wrapper wrapper2 top">
+                <div class="container">
+                    <div class="text">
+                        <div class="heading">
+                            <h2>People Said</h2>
+                        </div>
+
+                        <div class="para">
+                            <p> I recently purchased a house through your website and had a fantastic experience. The user-friendly interface and detailed property information made browsing easy. The virtual tour feature was a game-changer. Transaction was seamless with secure online payment. Overall, thrilled with my new home and highly recommend your services.</p>
+                            <div class="box flex">
+                                <div class="img">
+                                    <img src="images/person.jpg" alt="">
+                                </div> <br>
+                                <div class="name">
+                                    <h5>Mr.XYZ</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--========= CONTACT =========-->
+            
+            <!--======= FOOTER ========-->
+            <footer class="footer">
+                <div class="footer-top">
+                    <div class="container">
+                        <div class="footer-brand">
+                            <a href="#" class="logo">
+                                <ion-icon name="home-outline"></ion-icon> MagicBricks
+                            </a>
+                            <p class="footer-text">
+                                A great platform to buy, sell and rent your properties
+                            </p>
+                        </div>
+
+                        <ul class="footer-list">
+                            <li>
+                                <p class="footer-list-title">Company</p>
+                            </li>
+                            <li>
+                                <a href="about.html" class="footer-link">
+                                    <ion-icon name="chevron-forward"></ion-icon>
+                                    <span class="span">About us</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="catalogue.html" class="footer-link">
+                                    <ion-icon name="chevron-forward"></ion-icon>
+                                    <span class="span">Catalogue</span>
+                                 </a>
+                            </li>
+                            
+                            <li>
+                                <a href="contact.html" class="footer-link">
+                                    <ion-icon name="chevron-forward"></ion-icon>
+                                    <span class="span">Contact us</span>
+                                </a>
+                            </li>
+
+                            
+                        </ul>
+
+                        <ul class="footer-list">
+                            <li>
+                                <p class="footer-list-title">More Links</p>
+                            </li>
+                            <li>
+                                <a href="login.html" class="footer-link">
+                                    <ion-icon name="chevron-forward"></ion-icon>
+                                    <span class="span">Login</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="register.html" class="footer-link">
+                                    <ion-icon name="chevron-forward"></ion-icon>
+                                    <span class="span">Register</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="feedback.html" class="footer-link">
+                                    <ion-icon name="chevron-forward"></ion-icon>
+                                    <span class="span">Feedback</span>
+                                </a>
+                            </li>
+                        </ul>
+
+                        <ul class="footer-list">
+                            <li>
+                                <p class="footer-list-title">Contact Details</p>
+                            </li>
+
+                            <li class="footer-item">
+                                <ion-icon name="location-outline"></ion-icon>
+                                <address class="address">
+                                    123 Real Estate Street,<br>
+                                    Mumbai, Maharashtra, <br>
+                                    India
+                                    <a href="#" class="address-link">View on Google Maps</a>
+                                </address>
+                            </li>
+
+                            <li class="footer-item">
+                                <ion-icon name="mail-outline"></ion-icon>
+                                <a href="mailto: Realestate@gmail.com" class="footer-link">MagicBricks@gmail.com</a>
+                            </li>
+
+                            <li class="footer-item">
+                                <ion-icon name="call-outline"></ion-icon>
+                                <a href="tel: 000-111-22233" class="footer-link">000-111-22233</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="container">
+                        <p class="copyright">
+                            &copy; 2024 MagicBricks. All rights reserved by <a href="#" class="copyright-link">MagicBricks</a>
+                        </p>
+
+                        <ul class="social-list">
+                            <li>
+                                <a href="#" class="social-link">
+                                    <ion-icon name="logo-facebook"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-link">
+                                    <ion-icon name="logo-instagram"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-link">
+                                    <ion-icon name="logo-twitter"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-link">
+                                    <ion-icon name="logo-linkedin"></ion-icon>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+
+            <!--=========== BACK-TO-TOP ==========-->
+            <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+                <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+            </a>
+        </article>
+   </main>
+    
+  <!--========= custom js link =========-->
+  <script src="main.js" defer></script>
+
+  <!--=========== ionicon link ==========-->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html> 
